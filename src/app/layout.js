@@ -26,6 +26,9 @@ export const metadata = {
         url: 'https://msk-cirrhosis.vercel.app',
         type: 'website',
         locale: 'ru_RU',
+    },
+    alternates: {
+        canonical: 'https://msk-cirrhosis.vercel.app',
     }
 };
 
