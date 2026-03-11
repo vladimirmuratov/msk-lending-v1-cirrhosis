@@ -31,7 +31,11 @@ export const ContactsBlock = memo(() => {
 
                     <Box sx={{ display: 'flex', gap: '10px' }}>
                         <MapOutlinedIcon sx={{ color: 'var(--red)' }} />
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px', } }}>г. Москва, ул. Староволынская, д. 10</Typography>
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px', } }}>
+                            г. Москва, ул. Староволынская, д. 10
+                            <br/>
+                            ФГБУ "Клиническая больница № 1"
+                        </Typography>
                     </Box>
 
                     <Box sx={{ display: 'flex', gap: '10px' }}>
